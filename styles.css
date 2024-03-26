@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-size: 9em;
+    text-align: center;
+    transform: uppercase;
+    line-height: 4em;
+}
+
+h2{
+    font-size: 5em;
+    text-align: center;
+    transform: uppercasae;
+    line-height: 4em;
+    text-shadow:#020819 8px -20px 9px;
+}
+h3{
+    font-size: 4.1em;
+    text-align: center;
+    line-height: 1em;
+}
+h4{
+    font-size: 1.5;
+    letter-spacing: 04px;
+    line-height: 1em;   
+}
+h5{
+    font-size: 1.2em;
+    line-height: 1em;   
+}
+.nav-bar a{
+    background-color: darkblue;
+    color: white;
+    font: 2em;
+}
+.fondo{
+    background-image: url(ironhack-skydive-background.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    
+}
+.quote{
+    font-size: 2.5em;
+}
+.dark-background{
+    background-color: darkblue;
+    color: white;
+}
+.informacion{
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+}
+.link-btn{
+    background-color: blue;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0,5px;
+    text-align: center;
+    text-decoration: none;
+}
+.service-box{
+    font-size: 1.7em;
+    text-align: center;
+}
+.service-box img{
+    width: 125px;
+}
+.section-text{
+    font-size: 1,9em;
+    text-align: center;
+}
+.member-name{
+    font-size: 1,5em;
+    font-weight: 700;
+
+}
+.team .section-text {
+
+}
+
+.team .member-name {
+
+}
+.team img{
+    width: 250px;
+    height: 180px;
+}
+.dark-background footer{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-size: 1,9em;
+}
+.address{
+    font-style: normal;
+    font-size: 0,8em;
+}
+.footer a{
+    color: blue;
+    text-decoration: none;
+}
+.ul{
+    list-style: none;
+}

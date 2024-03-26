@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head >
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iron Skydive</title>
-    <h1>
-        IronSkydive
-        <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png" alt="" width="70px">
-    </h1>
-    <h2>Que empiece el viaje</h2>
-    <aside>
-        "The best experience of our lives"
+    <link rel="stylesheet" href="./styles.css">
+    <header class="fondo">
+        <h1>
+            IronSkydive
+            <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png" alt="" width="70px">
+            <h2></h2>
+        </h1>
+        <h2>Que empiece el viaje</h2>
+        <aside class="quote">
+            "The best experience of our lives"
+    
+        </aside>
+        <aside>Ariel Quiñones y Gonzalo Manrique, Ironhack Founders</aside>
+    </header>
+    
 
-    </aside>
-    <aside>Ariel Quiñones y Gonzalo Manrique, Ironhack Founders</aside>
 </head>
 <body>
     <header>
-        <nav>
+        
+        <nav class="nav-bar">
             <ul>
                 <li>
                     <a href="structure">DayStructure</a>
@@ -38,79 +45,80 @@
         </nav>
     </header>
 
-    <section>
-        <article>
+    <section id="general-information" class="dark-background">
+        <article class="informacion">
             <h3>Hello!</h3>
             <p>
                 Welcome to ironSkydive, the best  adventure you will ever have.
             </p>
-            <a href="#">Learn More</a>
+            <a href="#" class="link-btn">Learn More</a>
         </article>
-        <article>
+        <article class="informacion">
             <h3>About us</h3>
             <p>
                 We like a lot programming websites, but we also love to practice sport.
             </p>
-            <a href="#">Watch video</a>
+            <a href="#" class="link-btn">Watch video</a>
         </article>
-        <article>
+        <article class="informacion">
             <h3>Wanna join</h3>
             <p>
                 Join our fitness programm to be in good shape while learing.
             </p>
-            <a href="#">Register</a>
+            <a href="#" class="link-btn">Register</a>
         </article>
 
 
     </section>
-    <section>
+    <section id="structure">
         <h3>
             How do we structure the day?
 
         </h3>
         <div>
-            <article>
+            <article class="service-box">
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png" alt="" width="100px">
                 <h4>1.Training</h4>
                 <p>We teach all the necessary things to jump from without any kind of problem</p>
             </article>
-            <article>
+            <article class="service-box">
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-get-ready.png" alt="" width="100">
                 <h4>2. Get ready</h4>
                 <p>You are already prepared, you just need the suit and a prachute. All sizes available</p>
             </article>
-            <article>
+            <article class="service-box">
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-fly.png" alt="" width="100px">
                 <h4>3.Fly</h4>
                 <p>You are ready, and the plane is waiting for us in the hangar, Let's fly!</p>
             </article>
-            <article>
+            <article class="service-box">
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-jump.png" alt="" width="100px">
                 <h4>4.Jump!</h4>
                 <p>You have dond the most complicated. just one step left...jump!</p>
             </article>
         </div>
     </section>
-    <section>
+
+    <section id="Team"  class="dark-background">
         <h3>Team</h3>
-        <p>Our team collectively has 75 years  of experience. Odds are, when you jump  out of the plane these professional, you won't go splat. </p>
-        <div>
+        <p class="section-text">Our team collectively has 75 years  of experience. Odds are, when you jump  out of the plane these professional, you won't go splat. </p>
+        <div class="team img">
             <article>
-                <h4>
+                <h4 class="member-name">
                     Harold Rothstein
                 </h4>
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c18b1c463b80090894237a262dfdfbad.jpg" alt="" width="80px">
                 <hr>
             </article>   
             <article>
-                <h4>
+                <h4 class="member-name">
                     Susan Phillips
                 </h4>
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_a18d6123a7c8e75f7e70a4e59b941093.jpg" alt="" width="80px">
                 <hr>
             </article>   
             <article>
-                <h4>
+                <h4 class="member-name">
                     Taylor Roberts
                 </h4>
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7104a331530d1b0611da55093b7dc421.jpg" alt="" width="80px">
@@ -118,7 +126,7 @@
             </article>   
         </div>
     </section>
-    <section>
+    <section id="Schedule">
         <h3>
             Schedule        
 
@@ -150,7 +158,7 @@
         <h3>Schedule a Time Slot</h3>
 
     </section>
-    <footer>
+    <footer class="dark-background footer">
         <h5>Contact Information</h5>
         <address>
             <br>IronSkydive 
@@ -158,7 +166,7 @@
             <br>75009 Paris, France 
             <br>+33 (0) 619 193 088</address>
         <h5>Follow</h5>
-        <ul>
+        <ul class="ul">
             <li>
                <a href="#" target="_blank">Facebook
             </a>
